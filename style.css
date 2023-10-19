@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: rgb(255, 0, 0);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    background-color: #000000;
+    color: rgb(255, 0, 0);
+    padding: 20px;
+    margin: 0;
+}
+
+.container {
+    background-color: rgb(255, 0, 0);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+/* Estilos dos campos de entrada */
+input[type="number"] {
+    width: -50%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 5px;
+}
+
+/* Estilo do botão de cálculo */
+button {
+    background-color: #8c00ff;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #6f00ff;
+}
+
+/* Estilo dos resultados */
+#resultadoPosicao,
+#resultadoVelocidade,
+#resultadoAceleracao {
+    font-weight: bold;
+}
+
+/* Alinhar resultados à esquerda */
+#resultadoPosicao,
+#resultadoVelocidade,
+#resultadoAceleracao {
+    text-align: center;
+}
+
+/* Espaçamento entre resultados */
+#resultadoVelocidade,
+#resultadoAceleracao {
+    margin-top: 10px;
+}
+
+/* Espaçamento inferior nos resultados */
+#resultadoAceleracao {
+    margin-bottom: 10px;
+}
