@@ -1,8 +1,8 @@
 function calcularMCU() {
     // Obtenha os valores de entrada do usuário
-    const raio = parseFloat(document.querySelector("raio").value);
-    const velocidadeAngular = parseFloat(document.querySelector("velocidadeAngular").value);
-    const tempo = parseFloat(document.querySelector("tempo").value);
+    const raio = document.querySelector("raio").value;
+    const velocidadeAngular = document.querySelector("velocidadeAngular").value;
+    const tempo = document.querySelector("tempo").value;
 
     // Calcule o ângulo em radianos
     const theta = velocidadeAngular * tempo;
