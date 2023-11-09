@@ -13,7 +13,7 @@ function calcularMCU() {
     const aceleracao = raio * Math.pow(velocidadeAngular, 2);
 
     // Exiba os resultados na página
-    document.querySelector("resultadoPosicao").innerHTML = "Posição: " + posicao.toFixed(2);
-    document.querySelector("resultadoVelocidade").innerHTML = "Velocidade: " + velocidade.toFixed(2);
-    document.querySelector("resultadoAceleracao").innerHTML = "Aceleração: " + aceleracao.toFixed(2);
+    document.querySelector("resultadoPosicao") = "Posição: " + posicao.toFixed(2);
+    document.querySelector("resultadoVelocidade") = "Velocidade: " + velocidade.toFixed(2);
+    document.querySelector("resultadoAceleracao") = "Aceleração: " + aceleracao.toFixed(2);
 }
